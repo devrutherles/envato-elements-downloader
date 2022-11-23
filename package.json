@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "run": "node app.js"
+    "start": "npm run run"
   },
   "keywords": [],
   "author": "",
