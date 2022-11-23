@@ -18,8 +18,8 @@ class Envato {
     await page.goto('https://elements.envato.com/sign-in', {waitUntil: 'networkidle0'});
 
     // login
-    await page.type('input[name="username"]', process.env.ENVATO_USERNAME)
-    await page.type('input[name="password"]', process.env.ENVATO_PASSWORD)
+    await page.type('input[name="username"]', "amaroabril91@gmail.com")
+    await page.type('input[name="password"]', "goleiro2014")
     await page.click('button[data-test-selector="sign-in-submit"]')
     await page.waitForNavigation({waitUntil: 'networkidle0'})
     console.log('signed in')
